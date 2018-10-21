@@ -33,7 +33,7 @@
             }
 
             /*Navbar Text Color*/
-            .navbar-end .tabs a {
+            .navbar-item, .navbar-link, .navbar-end .tabs a {
                 color: white; 
             }
 
@@ -56,6 +56,10 @@
             .cta p a {
                 font-family: 'Abril Fatface';
                 font-size: 1.1rem;
+            }
+
+            .sandbox .columns .column .card {
+                min-height: 250px;
             }
 
 
@@ -88,13 +92,36 @@
                         </div>
                         <div id="navbarMenu" class="navbar-menu">
                             <div class="navbar-end">
+                                <!-- <div class="navbar-item has-dropdown is-hoverable">
+                                    <a class="navbar-link">
+                                      More
+                                    </a>
+
+                                    <div class="navbar-dropdown">
+                                      <a class="navbar-item">
+                                        About
+                                      </a>
+                                      <a class="navbar-item">
+                                        Jobs
+                                      </a>
+                                      <a class="navbar-item">
+                                        Contact
+                                      </a>
+                                      <hr class="navbar-divider">
+                                      <a class="navbar-item">
+                                        Report an issue
+                                      </a>
+                                    </div>
+                                </div> -->
                                 <div class="tabs is-right">
                                     <ul>
                                         <!-- <li class="is-active"><a>Home</a></li> -->
                                         <!-- <li><a href="">Examples</a></li> -->
-                                        <li><a href="">Projects</a></li>
-                                        <li><a href="">Team</a></li>
-                                        <li><a href="">Contact</a></li>
+                                        <li>
+                                          <a href="https://explorer.factoid.org/">🔍 Explorer</a>  
+                                        </li>
+                                        <li><a href="#">📄 Documentation</a></li>
+                                        <li><a href="#">🛠 Projects</a></li>
                                     </ul>
                                     <span class="navbar-item">
                                         <a class="button is-white is-outlined" href="https://github.com/dansup/bulma-templates/blob/master/templates/hero.html">
@@ -239,11 +266,14 @@
                          </header>
                          <div class="card-content">
                            <div class="content">
-                            Ledger hardware wallet support for factoids.<br><br>
+                            Ledger hardware wallet support for factoids.
                            </div>
                          </div>
-                         <footer class="card-footer">
-                           <a href="#" class="card-footer-item">Learn More</a>
+                         <footer class="has-text-centered">
+                           <!-- <a href="#" class="card-footer-item">Learn More</a> -->
+                           <a href="#">
+                            <img src="media/ledger-wallet.svg" style="margin-bottom: 20px;">
+                           </a>
                          </footer>
                        </div>
                    </div>
