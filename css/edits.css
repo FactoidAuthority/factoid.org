@@ -46,8 +46,8 @@
             }
 
             .column .card {
-                max-height: 410px;
-                overflow: scroll;
+                min-height: 410px;
+                /*overflow: scroll;*/
             }
 
 
