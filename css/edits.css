@@ -40,7 +40,7 @@
             /*Change call-to-action text*/
             .cta p a {
                 font-family: 'Abril Fatface';
-                font-size: 1.1rem;
+                font-size: 1.25rem;
             }
 
             /*Sets minimum height for the intro cards*/
@@ -51,6 +51,16 @@
             /*Sets minimum height for the project cards*/
             .sandbox .columns .column .card {
                 min-height: 250px;
+            }
+
+            /*Community Quartly Report Logo Size*/
+            .container .columns .column .content img {
+                height: 4rem;
+            }
+
+            .cr .title {
+                font-size: 2rem;
+                margin-top: 50px;
             }
 
             /*Sets the animated background image*/
@@ -64,3 +74,14 @@
                       from { background-position: 0 0; }
                       to { background-position: -400px 0; }
             }
+
+            /*Report Rounded Edges*/
+            @media screen and (min-width: 769px){
+            .column.is-10, .column.is-10-tablet {
+                border-radius: 10px;
+                margin-top: -20px;
+                }
+            }
+
+
+
