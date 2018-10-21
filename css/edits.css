@@ -46,6 +46,7 @@
             /*Sets minimum height for the intro cards*/
             .column .card {
                 min-height: 410px;
+                border-radius: 10px;
             }
 
             /*Sets minimum height for the project cards*/
