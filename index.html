@@ -19,6 +19,7 @@
         <!-- CSS Adjustments -->
         <link rel="stylesheet" type="text/css" href="css/hero.css">
         <link rel="stylesheet" type="text/css" href="css/edits.css">
+        <link rel="stylesheet" type="text/css" href="css/text.css">
         <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
     </head>
     <body>
@@ -310,39 +311,59 @@
         <footer class="footer">
             <div class="container">
                 <div class="columns">
-                    <div class="column is-3 is-offset-2">
-                        <h2><strong>Category</strong></h2>
+                    <div class="column has-text-centered is-4 is-offset-1">
+                        <img class="footer-logo" src="media/tfa_shield_color.svg">
+                        <h2><strong>The Factoid Authority</strong></h2>
+                        <span class="caption">© All rights reserved 2018</span>
+                    </div>
+                    <div class="column is-3 has-text-centered">
+                        <h2><strong>The Rabbit Hole</strong></h2>
                         <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Vestibulum errato isse</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Aisia caisia</a></li>
-                            <li><a href="#">Murphy's law</a></li>
-                            <li><a href="#">Flimsy Lavenrock</a></li>
-                            <li><a href="#">Maven Mousie Lavender</a></li>
+                            <li><a href="#">C#/.NET Library</a></li>
+                            <li><a href="#">TFA Bot</a></li>
+                            <li><a href="#">Postgres DB</a></li>
+                            <li><a href="#">Testnet Faucet</a></li>
                         </ul>
                     </div>
                     <div class="column is-3">
-                        <h2><strong>Category</strong></h2>
-                        <ul>
-                            <li><a href="#">Labore et dolore magna aliqua</a></li>
-                            <li><a href="#">Kanban airis sum eschelor</a></li>
-                            <li><a href="#">Modular modern free</a></li>
-                            <li><a href="#">The king of clubs</a></li>
-                            <li><a href="#">The Discovery Dissipation</a></li>
-                            <li><a href="#">Course Correction</a></li>
-                            <li><a href="#">Better Angels</a></li>
-                        </ul>
-                    </div>
-                    <div class="column is-4">
-                        <h2><strong>Category</strong></h2>
-                        <ul>
-                            <li><a href="#">Objects in space</a></li>
-                            <li><a href="#">Playing cards with coyote</a></li>
-                            <li><a href="#">Goodbye Yellow Brick Road</a></li>
-                            <li><a href="#">The Garden of Forking Paths</a></li>
-                            <li><a href="#">Future Shock</a></li>
-                        </ul>
+                        
+                        <div class="field">
+                          <label class="label">Contact Us</label>
+                          <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="email" placeholder="Your@email.com">
+                            <span class="icon is-small is-left">
+                              <i class="fas fa-envelope"></i>
+                            </span>
+                          </div>
+                          <!-- <p class="help is-danger">This email is invalid</p> -->
+                        </div>
+
+                        <div class="field">
+                          <!-- <label class="label">Message</label> -->
+                          <div class="control">
+                            <textarea class="textarea" placeholder="What's on your mind?"></textarea>
+                          </div>
+                        </div>
+
+                        <div class="field">
+                          <div class="control">
+                            <label class="checkbox">
+                              <input type="checkbox">
+                              I agree to the <a href="#">terms and conditions</a>
+                            </label>
+                          </div>
+                        </div>
+
+                        <div class="field is-grouped">
+                          <div class="control">
+                            <button class="button is-link">Submit</button>
+                          </div>
+                          <div class="control">
+                            <button class="button is-text">Cancel</button>
+                          </div>
+                        </div>
+
+
                     </div>
                 </div>
                 <div class="content has-text-centered">

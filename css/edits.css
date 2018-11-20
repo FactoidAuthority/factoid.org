@@ -32,17 +32,6 @@
                 margin-top: 20px;
             }         
 
-            .title {
-                font-family: 'Abril Fatface';
-                font-size: 3rem;
-            }
-
-            /*Change call-to-action text*/
-            .cta p a {
-                font-family: 'Abril Fatface';
-                font-size: 1.25rem;
-            }
-
             /*Sets minimum height for the intro cards*/
             .column .card {
                 min-height: 410px;
@@ -104,6 +93,15 @@
                 border-radius: 10px;
                 margin-top: -50px;
                 }
+            }
+
+            /*adjusting the footer logo*/
+            .footer-logo {
+                height: 7rem;
+            }
+
+            .caption {
+                font-size: .7rem;
             }
 
 

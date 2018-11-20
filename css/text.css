@@ -1,0 +1,10 @@
+.title {
+	font-family: 'Abril Fatface';
+	font-size: 3rem;
+}
+
+/*Change call-to-action text*/
+.cta p a {
+	font-family: 'Abril Fatface';
+	font-size: 1.25rem;
+}
