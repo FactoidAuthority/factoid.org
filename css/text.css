@@ -1,10 +1,34 @@
 .title {
-	font-family: 'Abril Fatface';
+	font-family: 'Montserrat';
 	font-size: 3rem;
+}
+
+h2, .subtitle {
+	font-family: 'Hind';
+}
+
+p {
+	font-family: 'Hind'
 }
 
 /*Change call-to-action text*/
 .cta p a {
-	font-family: 'Abril Fatface';
+	font-family: 'Montserrat';
 	font-size: 1.25rem;
+}
+
+.card-content .content h4 {
+	font-family: 'Montserrat';
+} 
+
+.card-header-title {
+	font-family: 'Montserrat';
+}
+
+.tabs a {
+	color: white;
+}
+
+.navbar-dropdown {
+	background-color: #093e94;
 }

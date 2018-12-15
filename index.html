@@ -10,8 +10,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Hind|Montserrat" rel="stylesheet">
         
         <!-- Bulma Version 0.7.1-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
@@ -29,7 +28,7 @@
             <div class="hero-head">
 
                 <!-- NAVBAR -->
-                <nav class="navbar">
+                <nav class="navbar is-fixed-top">
                     <div class="container">
                         <div class="navbar-brand">
                             <a class="navbar-item" href="#">
@@ -43,16 +42,45 @@
                         </div>
                         <div id="navbarMenu" class="navbar-menu">
                             <div class="navbar-end">
+                              <div class="navbar-item has-dropdown is-hoverable">
+                                <a href="https://explorer.factoid.org/" class="navbar-link">
+                                  🔍 Explorer
+                                </a>
+
+                                <div class="navbar-dropdown">
+                                  <a class="navbar-item">
+                                    🔗 API
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="navbar-item has-dropdown is-hoverable">
+                                <a href="http://myfactomwallet.com" class="navbar-link">
+                                  👜 My Factom Wallet
+                                </a>
+                                <div class="navbar-dropdown">
+                                  <a href="http://help.mfw.com" class="navbar-item">
+                                    📄 Documentation
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="navbar-item has-dropdown is-hoverable">
+                                <a href="http://myfactomwallet.com" class="navbar-link">
+                                  🛠 Projects
+                                </a>
+                                <div class="navbar-dropdown">
+                                  <a href="#" class="navbar-item">
+                                    🤖 Server Monitoring Bot
+                                  </a>
+                                  <a href="#" class="navbar-item">
+                                    🔎 Block Explorer
+                                  </a>
+                                  <a href="#" class="navbar-item">
+                                    🔑 Factom Ledger
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                                 <div class="tabs is-right">
-                                    <ul>
-                                        <!-- <li class="is-active"><a>Home</a></li> -->
-                                        <!-- <li><a href="">Examples</a></li> -->
-                                        <li>
-                                          <a href="https://explorer.factoid.org/">🔍 Explorer</a>  
-                                        </li>
-                                        <li><a href="#">📄 Documentation</a></li>
-                                        <li><a href="#">🛠 Projects</a></li>
-                                    </ul>
                                     <div class="navbar-item">
                                           <a href="https://discordapp.com/channels/395532807205683210/420650923313070080" class="button is-outlined is-danger is-medium"><i class="fab fa-discord" style="color: white;"></i></a>
                                     </div>
@@ -84,8 +112,17 @@
                     <h2 class="subtitle">
                     The Factoid Authority is a node operator of the Factom network, a notary protocol that lives on top of the world's most secure blockchain: bitcoin. We develop handcrafted solutions and tools to acellerate the transition to a world where trust and transparency is part of the fabric of every system. 
                     </h2>
+                    <span style="color: white; font-size: 1.3rem; vertical-align: text-bottom;">
+                      Our services  👉
+                    </span>
                     <a class="button is-info is-medium is-outlined">
-                      Factom Explorer
+                      🔎 Explorer
+                    </a>
+                    <a class="button is-info is-medium is-outlined">
+                      👜 Wallet
+                    </a>
+                    <a class="button is-info is-medium is-outlined">
+                      🔑 Ledger
                     </a>
                 </div>
             </div>
