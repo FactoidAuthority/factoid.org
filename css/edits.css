@@ -1,10 +1,11 @@
-            .navbar-link {
-              background: rgba(0,0,0,0) !important;
-            }
-       
+
             /*Creates extra space at top of page*/
             .navbar {
                 padding-top: 10px;
+            }
+
+            .navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
+              color: #363636;
             }
 
             /*Changing logo image height*/
@@ -23,6 +24,7 @@
             .navbar-item, .navbar-link, .navbar-end .tabs a {
                 color: white; 
             }
+
 
             /*Menu Burger Color*/
             .navbar-burger span {
