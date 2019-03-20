@@ -1,4 +1,7 @@
-
+            .navbar-link {
+              background: rgba(0,0,0,0) !important;
+            }
+       
             /*Creates extra space at top of page*/
             .navbar {
                 padding-top: 10px;
