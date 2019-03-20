@@ -5,11 +5,16 @@
             }
 
             .card {
-              height: 100%;
+             
+            }
+
+            .card-content {
+              height: 200px
             }
 
             .card-footer {
-
+              /*margin-top: auto; */
+              
             }
 
             .navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
