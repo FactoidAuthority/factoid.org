@@ -4,6 +4,14 @@
                 padding-top: 10px;
             }
 
+            .card {
+              /*height: 100%;*/
+            }
+
+            .card-footer {
+
+            }
+
             .navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
               color: #363636;
             }
